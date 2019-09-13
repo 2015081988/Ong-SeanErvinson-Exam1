@@ -41,7 +41,7 @@
             </LinearLayout>
             <ImageView
                 style="@style/ProfileImage"
-                android:src="@drawable/clark-kent">
+                android:src="@drawable/clark_kent">
             </ImageView>
         </LinearLayout>
         <TextView
@@ -84,14 +84,14 @@
             </LinearLayout>
             <ImageView
                 style="@style/ProfileImage"
-                android:src="@drawable/clark-kent">
+                android:src="@drawable/bruce_wayne">
             </ImageView>
         </LinearLayout>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="@style/BodyText"
-            android:text="Very quiet despectacled reporter at the DailyPlanet. Clumsy felllow, but well built and looks strickingly familiar">
+            android:text="Bruce wayne is a multimillionaire with the likes of Elon Musk and Iron Man. He is also batman.">
         </TextView>
     </LinearLayout>
 
@@ -127,7 +127,7 @@
             </LinearLayout>
             <ImageView
                 style="@style/ProfileImage"
-                android:src="@drawable/donald-trump">
+                android:src="@drawable/donald_trump">
             </ImageView>
         </LinearLayout>
         <TextView
