@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/whitishGrey"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        style="@style/Card"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/HeaderText"
+                    android:text="Clark Kent">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/SubheaderText"
+                    android:text="Reporter">
+                </TextView>
+            </LinearLayout>
+            <ImageView
+                style="@style/ProfileImage"
+                android:src="@drawable/clark-kent">
+            </ImageView>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/BodyText"
+            android:text="Very quiet despectacled reporter at the DailyPlanet. Clumsy felllow, but well built and looks strickingly familiar">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Card"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/HeaderText"
+                    android:text="Bruce Wayne">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/SubheaderText"
+                    android:text="Billionaire">
+                </TextView>
+            </LinearLayout>
+            <ImageView
+                style="@style/ProfileImage"
+                android:src="@drawable/clark-kent">
+            </ImageView>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/BodyText"
+            android:text="Very quiet despectacled reporter at the DailyPlanet. Clumsy felllow, but well built and looks strickingly familiar">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Card"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/HeaderText"
+                    android:text="Donald Trump">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/SubheaderText"
+                    android:text="President">
+                </TextView>
+            </LinearLayout>
+            <ImageView
+                style="@style/ProfileImage"
+                android:src="@drawable/donald-trump">
+            </ImageView>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/BodyText"
+            android:text=" The 45th and current president of the United States. Before entering politics, he was a businessman and television personality.">
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>
