@@ -12,7 +12,7 @@
     <LinearLayout
         style="@style/Card"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="180dp"
         android:orientation="vertical"
         >
 
@@ -55,7 +55,7 @@
     <LinearLayout
         style="@style/Card"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="180dp"
         android:orientation="vertical"
         >
 
@@ -98,7 +98,7 @@
     <LinearLayout
         style="@style/Card"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="180dp"
         android:orientation="vertical"
         >
 
@@ -134,7 +134,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="@style/BodyText"
-            android:text=" The 45th and current president of the United States. Before entering politics, he was a businessman and television personality.">
+            android:text="The 45th and current president of the United States. Before entering politics, he was a businessman and television personality.">
         </TextView>
     </LinearLayout>
 
